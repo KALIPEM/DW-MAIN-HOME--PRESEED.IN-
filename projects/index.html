@@ -26,14 +26,14 @@
         <link href="fa/css/foaw.css" rel="stylesheet">
 	      <link href="fa/css/foaw1.css" rel="stylesheet">
       <!---  <link rel="stylesheet" href="assets/css/bootstrap.min.css">-->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    <!--- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
             integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-            integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+            integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>-->
     
     <!-- Le fav and touch icons -->
    
@@ -182,6 +182,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1fff2', end
 			    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
 			    vertical-align: middle;
 			}
+      @media only screen and (max-width: 600px)
+      {
+        #res-para{
+          position: relative;
+          right: 10px;
+        }
+      }
         </style>
         <style>
       @media only screen and ( max-width:769px){
@@ -190,7 +197,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1fff2', end
       padding-top:2%
       }
       }
-/*nav bar*/
+/*nav bar
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -438,6 +445,12 @@ p.buttonscontent7 {
     font-weight: bold;
   }
 }
+@media only screen and (max-width: 568px){
+section.py1 {
+    width: 330px;
+}
+}
+
     </style>
 
         <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
@@ -590,7 +603,7 @@ p.buttonscontent7 {
            
              <div  class="homeicon" style="height:60px;padding-left:5%;float:left;width:100%;padding-top:1.2%;position:absolute;">
                 <a href="http://preseed.in" target="_blank" style="color: #ffffff; letter-spacing: 1px; float: left;">
-                <img src="assets/images/logo.png" class="menu_img" alt="Preseed_logo">
+                <img style="width: 126px;" src="assets/images/logo.png" class="menu_img" alt="Preseed_logo">
                </a>
     </div>
     <br>
@@ -602,7 +615,11 @@ p.buttonscontent7 {
                     <div id="preseed-logo" >
                       <img  class="img-responsive" src="assets/ProjectsYellow.png" style="display:block;margin-bottom: 1%; padding-top: 30px;margin:0 auto 100px;" />
                     </div>
-                    
+                    <div>
+                      <h2 style="color: white; width: 70%; position: relative; bottom: 34px;"><b>These are the works that are cooking here. This is the food that keeps us going. But not for too long. We need fuel, for
+                      our vehicle is finally ready to roll!</b></h2>
+                    </div>
+<br><br>
                   <details>
                     <summary>Dharma, Karma and Sewa</summary>
                     <div class="faq__content">
@@ -796,12 +813,12 @@ enquiries.</p>
         <section class="py1 lap-sec">
         
           <div class="row">
-            <div class="col-md-10" style="margin-left: 6%; padding: 2%;">
-              <p class="buttonscontent" align="center"><a  href="https://nishchal.preseed.in/" target=_blank
-                  style="text-decoration: underline ;color: #ff005a;">Nishchal</a>’s grand vision of education is made up of
+            <div class="col-md-10" style="margin-left: 6%; padding: 0%;">
+              <p class="buttonscontent" align="center" style="font-size: 15px;"><a  href="https://nishchal.preseed.in/" target=_blank
+                  style="text-decoration: underline ;color: #ff005a; font-size: 15px;">Nishchal</a>’s grand vision of education is made up of
                 <b>Yoga:</b>
               </p>
-              <ol class="grayboxitems" style="margin-right: 56px;">
+              <ol class="grayboxitems" style="position: relative;margin-right: -48px;font-size: 15px;right: 45px;">
                 <li>Of communication and collaboration between people chasing a common goal (as indicated inside
                   the + button in step 4 in Preseeded, <b>‘+ towards actual harmonious freedom’)</b></li>
                 <li>With a culture of tech entrepreneurship. (through our future programe <a style="color: #ff005a;;" href="https://ecell.preseed.in/"
@@ -813,10 +830,10 @@ enquiries.</p>
                     This is how mathematics must be taught even in primary schools. More so, for as we head
                     towards AI. Just programming skills may not be enough)</b></li>
               </ol>
-              <p class="buttonscontent">This is the answer to how we are putting our forces into heading towards
+              <p class="buttonscontent" style="font-size: 14px;">This is the answer to how we are putting our forces into heading towards
                 the overhauling of the education system across its length and breadth, across the world someday.
               </p>
-              <p class="buttonscontent7"><i>If the above and below comes true, we will have a business that works
+              <p class="buttonscontent7" id="res-para"><i>If the above and below comes true, we will have a business that works
                   on
                   its quest to understand and recreate the science of the vedas and upnishads.</i></p>
         
