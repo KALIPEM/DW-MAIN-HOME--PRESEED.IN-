@@ -1394,7 +1394,7 @@ p.buttonscontent14 {
     top: -1.8em;
     color: #ff005a;
     font-size: 2em !important;
-    z-index: 99999;
+    z-index:;
   }
 }
 .fa-ig:hover {
