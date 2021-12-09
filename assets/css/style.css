@@ -1500,7 +1500,7 @@ details[open] summary ~ * {
 details > summary::after {
   position: absolute;
   content: "+";
-  top: 18px
+  top: 18px;
   left: 8px;
 }
 details > .iconbtn::after {
@@ -1513,7 +1513,7 @@ details > .iconbtn::after {
 details[open] > summary::after {
   position: absolute;
   content: "-";
- top: 18px
+ top: 18px;
   left: 8px;
 }
 details > summary::-webkit-details-marker {
