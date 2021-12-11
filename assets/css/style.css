@@ -1478,6 +1478,7 @@ summary {
   cursor: pointer;
   position: relative;
   border-radius: 10px;
+  padding-left:34px;
   text-align: center;
   
 }
