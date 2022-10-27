@@ -1436,6 +1436,9 @@ p.buttonscontent14 {
 #myModal {
   z-index: 9999;
 }
+#meme-12 a{
+  margin:5px;
+}
 .btn-no {
   background-color: #ffc400;
   color: rgb(0, 0, 0);
