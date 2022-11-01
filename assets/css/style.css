@@ -1440,6 +1440,9 @@ p.buttonscontent14 {
   margin:5px;
   font-family: Lucida Handwriting;
 }
+#meme-12 #hover:hover{
+  color: #ffc400;
+}
 .btn-no {
   background-color: #ffc400;
   color: rgb(0, 0, 0);
