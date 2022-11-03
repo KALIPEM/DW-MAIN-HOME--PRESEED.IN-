@@ -1480,6 +1480,17 @@ p.buttonscontent14 {
 .enterbutton{
   width:80px;
   height:auto;
+  overflow:hidden;
+}
+.hoverlogo{
+  height:130px;
+  width: auto;
+  
+}
+.hoverlogo a img:hover{
+  cursor:pointer;
+  background-color:rgba(76, 76, 76, 0.9) ;
+  
 }
 summary {
   font-size: 1.5rem;
