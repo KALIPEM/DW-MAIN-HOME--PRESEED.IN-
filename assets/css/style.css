@@ -1477,6 +1477,7 @@ p.buttonscontent14 {
 #enterbutton :hover{
   cursor:pointer;
 }
+
 summary {
   font-size: 1.5rem;
   font-weight: 600;
