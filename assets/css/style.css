@@ -509,7 +509,7 @@ ul.links {
   padding-top: 10px;
   padding-bottom: 28px;
   font-family: "Open Sans", sans-serif;
-  color: #ffd700 !important;
+  color: #ffbf1d !important;
   font-size: 24px;
   line-height: 70px;
   text-align: center;
@@ -872,7 +872,7 @@ h6 {
 
 strong.saffron {
   color: #000;
-  background: #ff9933;
+  background: #ffbf1d;
   padding: 0 3px;
 }
 
@@ -890,7 +890,7 @@ strong.green {
 
 a.toplinkcenter {
   text-decoration: none;
-  color: #ffd700;
+  color: #ffbf1d;
 }
 a.toplinkcenter:hover {
   text-decoration: none;
@@ -984,7 +984,7 @@ p.hackercontent2 {
   text-align: center;
 }
 p.hackercontent3 {
-  color: #ffd700;
+  color: #ffbf1d;
   font-size: 17px;
   font-style: italic;
   text-align: center;
@@ -1051,8 +1051,8 @@ img.imgicon {
   padding: 12px;
 }
 div#headingfive {
-  background-color: yellow;
-  border: 1px solid yellow;
+  background-color: #ffbf1d;
+  border: 1px solid #ffbf1d;
 }
 p.buttonscontent2 {
   text-align: left;
@@ -1417,7 +1417,7 @@ p.buttonscontent14 {
 }
 .preseed-logo-theme-style {
   font-size: 1.5em;
-  color: #ffc400;
+  color: #ffbf1d;
 }
 .highlight-black {
   background-color: #000;
@@ -1441,15 +1441,15 @@ p.buttonscontent14 {
   font-family: Lucida Handwriting;
 }
 #meme-12 #hover:hover{
-  color: #ffc400;
+  color: #ffbf1d;
 }
 .btn-no {
-  background-color: #ffc400;
+  background-color: #ffbf1d;
   color: rgb(0, 0, 0);
 }
 .btn-no:hover {
   background-color: rgba(17, 17, 17, 0.568);
-  color: #ffc400;
+  color: #ffbf1d;
 }
 .pinkbtnheading {
   color: #ff005a !important;
@@ -1467,7 +1467,7 @@ p.buttonscontent14 {
 .runningfontyellow {
   font-family: Marck Script, cursive;
   font-size: xx-large;
-  color: #ffd700;
+  color: #ffbf1d;
   position: relative;
     top: 35px;
 }
@@ -1575,7 +1575,7 @@ details > summary::-webkit-details-marker {
   margin-bottom: 10px;
 }
 .yellow-btn {
-  background-color: rgb(255, 238, 0);
+  background-color: #ffbf1d;
 }
 @media only screen and (max-width: 750px) {
   .mob-detail-btn {
@@ -1590,5 +1590,5 @@ details > summary::-webkit-details-marker {
   }
 }
 .nav li a:hover {
-  color: rgb(255, 217, 0) !important;
+  color: #ffbf1d !important;
 }
