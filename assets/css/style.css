@@ -378,6 +378,17 @@ ul.links {
   top: 0;
   position: absolute;
 }
+.sm-links ul li a{
+  
+  text-decoration: none;
+  
+}
+.sm-links ul{
+  list-style: none;
+}
+.sm-links ul li {
+  display: inline-block;
+}
 .color_text {
   color: #fff;
 }
