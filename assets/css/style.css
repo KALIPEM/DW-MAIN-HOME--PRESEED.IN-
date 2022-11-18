@@ -1604,4 +1604,15 @@ details > summary::-webkit-details-marker {
 .nav li a:hover {
   color: #ffbf1d !important;
 }
+@media only screen and (max-width:980px){
+  .sm-links{
+    right:3%;
+    top:-14%;
+  }
 
+}
+@media only screen and (max-height:530px;){
+  .intro{
+    height:400px;
+  }
+}
