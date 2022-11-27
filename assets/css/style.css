@@ -1609,6 +1609,11 @@ details > summary::-webkit-details-marker {
     margin-right: 20%;
   }
 }
+@media only screen and (max-width: 360px;){
+  .faq__content h4{
+    font-size: 5px;
+  }
+}
 .nav li a:hover {
   color: #ffbf1d !important;
 }
