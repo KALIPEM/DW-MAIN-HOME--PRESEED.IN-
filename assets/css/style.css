@@ -1630,3 +1630,16 @@ details > summary::-webkit-details-marker {
     height:400px;
   }
 }
+
+/* News
+*********************************************************************************************/
+
+.apjquote {
+  background: url(../images/news.jpg);
+  background-size: cover;
+  background-position-x: 90%;
+}
+
+
+
+
